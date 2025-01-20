@@ -220,7 +220,7 @@ function MainPage(props: any) {
             class : "settingsNav",
             accessLvl : passcodeResults.user_code,
             visFunc : setSettingsVisible,
-            navFunc : setAdminLayer
+            navFunc : setRoofLayer
         },
         {
             label : "Shut Down",
