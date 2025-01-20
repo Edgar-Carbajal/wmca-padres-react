@@ -95,6 +95,8 @@ function MainPage(props: any) {
         toggleMainUI(false);
         setConfirmationVisible(false);
         setLayer("")
+        setAdminLayer("");
+        setRoofLayer("");
         setPasscodeVisible(true);
     }
     const logOut = () => {
