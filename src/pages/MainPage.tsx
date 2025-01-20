@@ -92,11 +92,11 @@ function MainPage(props: any) {
     
     const shutDown = () => {
         //add any macros necessary
-        toggleMainUI(false);
-        setConfirmationVisible(false);
         setLayer("")
         setAdminLayer("");
         setRoofLayer("");
+        toggleMainUI(false);
+        setConfirmationVisible(false);
         setPasscodeVisible(true);
     }
     const logOut = () => {
