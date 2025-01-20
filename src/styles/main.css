@@ -1,0 +1,1128 @@
+*:focus {
+  outline: none;
+}
+*{
+  font-family: Crestron Sans Pro;
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  width: 1024px;
+  height: 600px;
+}
+
+html {
+  width: 1024px;
+  height: 600px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-image: url(../assets/ButtonIcons/v1_TSW-760_Base_Page.png);
+  font-family: Crestron Sans Pro Semibold;
+}
+
+.btnBase {
+  font-family: Crestron Sans Pro;
+  text-align: center;  
+  background: #d3d3d3;  
+  border: 1px solid #f9f9f9;  
+  border-radius: 10px;  
+}
+
+.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 600px;
+  margin: 0;
+  background-color: transparent;
+  padding-top: 450px;
+  color: #ffff;
+  font-family: Crestron Sans Pro Semibold;
+  font-size: 54px;
+  border: none;  
+}
+
+.roomTitle{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  color: #ffff;
+  font-family: Crestron Sans Pro Semibold;
+  font-size: 54px;
+}
+
+.dialogueBg {
+  position: absolute;
+  top: 225px;
+  left: 362px;
+  width: 300px;
+  height: 150px;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  z-index: 1;
+  font-family: Crestron Sans Pro Semibold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialogueMsg {
+  font-size: 25px;
+  text-align: center;
+}
+
+.passwordPage{
+  position: absolute;
+  top: 0;
+  width: 1024px;
+  height: 600px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-image: url(../assets/ButtonIcons/v1_TSW-760_Splash_Page.png);
+  font-family: Crestron Sans Pro Semibold;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordLower{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.passwordTitle {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+  color: #ffff;
+  font-size: 54px;
+  width: 1024px;
+  flex: 1;
+}
+
+.padreImagePassword {
+  width: 540px;
+  height: 407px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: 540px;
+  background-image: url(../assets/ButtonIcons/Friar\ Logo\ v1.png);
+  margin: 50px auto;
+}
+
+.keypad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 20px
+}
+
+.keypadTitle {
+  font-family: Crestron Sans Pro;
+  width: 304px;
+  height: 36px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  margin: 0;
+}
+
+.passcodeInput {
+  width: 301px;
+  height: 38px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  border: solid;
+  border-color: #ffff;
+  border-width: 5px;
+  background-color: #000;
+  margin: 0;
+}
+.numberPad {
+  margin: 10px;
+  width: 290px;
+  height: 363px;
+  
+}
+.numberPad button {  
+  margin: 3px;  
+  width: 90px;  
+  height: 90px;  
+  font-size: 29px;
+  text-align: center;  
+  background: #d3d3d3;  
+  border: 1px solid #f9f9f9;  
+  border-radius: 10px;  
+} 
+.numberPad button:active {  
+  background: white;
+} 
+
+.keypadSettings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 20px;
+  height: 100%;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.keypadTitleSettings {
+  font-family: Crestron Sans Pro;
+  width: 304px;
+  height: 36px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  margin: 0;
+}
+
+.passcodeInputSettings {
+  width: 301px;
+  height: 38px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  border: solid;
+  border-color: #ffff;
+  border-width: 5px;
+  background-color: #000;
+  margin: 0;
+}
+.numberPadSettings {
+  margin: 22px;
+  /* padding: 10px; */
+  width: 300px;
+  height: 311px;
+}
+.numberPadSettings button {  
+  margin: 3px;  
+  width: 72px;  
+  height: 72px;  
+  font-size: 20px;
+  text-align: center;  
+  background: #d3d3d3;  
+  border: 1px solid #f9f9f9;  
+  border-radius: 10px;  
+} 
+.numberPadSettings button:active {  
+  background: white;
+} 
+
+.accessLvlBtns {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.accessLvlBtns button {
+  margin: 3px;  
+  width: 150px;  
+  height: 90px;  
+  font-size: 20px;
+  text-align: center;  
+  background: #d3d3d3;  
+  border: 1px solid #f9f9f9;  
+  border-radius: 10px;  
+}
+.accessLvlBtns button:active {
+  background: white;
+}
+
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 30px;
+  background-color: #000;
+  color: #ffff;
+  font-family: Crestron Sans Pro Semibold;
+  font-size: 22px;
+}
+
+.barLoftHeader {
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}
+
+.headerLabel {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+}
+
+.timeHeader {
+  position: absolute;
+  top: 0px;
+  left: 790px;
+}
+
+.navBg {
+  position: absolute;
+  top: 525px;
+  width: 1024px;
+  height: 75px;
+  background-color: #000;
+  font-size: 22px;
+  opacity: .50;
+}
+
+.navButtons {
+  position: absolute;
+  top: 525px;
+  width: 1024px;
+  height: 75px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navBtnCore {
+  width: 170px;
+  height: 75px;
+  border: none;
+  border-color: transparent;
+  background-color: black;
+  color: #ffff;
+  font-size: 16px;
+  font-family: Crestron Sans Pro;
+  padding-top: 55px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border: transparent;
+  
+}
+
+.gControlsNav {
+  background-image: url("../assets/ButtonIcons/Settings_48x48.png");
+  background-position-y: 5px;
+  background-size: 25%;
+}
+.modesNav {
+  background-image: url("../assets/ButtonIcons/Settings_48x48.png");
+  background-position-y: 5px;
+  background-size: 25%;
+}
+
+.videoSendsNav {
+  background-image: url("../assets/ButtonIcons/sourceSelect.png");
+  background-position-y: 5px;
+  background-size: 20%;
+}
+
+.tvNav {
+  background-image: url("../assets/ButtonIcons/screen.png");
+  background-position-y: 8px;
+  background-size: 30%;
+
+}
+
+.volumeNav {
+  background-image: url("../assets/ButtonIcons/744x456_audio_white.png");
+  background-position-y: 3px;
+  background-size: 80%;
+}
+
+.settingsNav {
+  background-image: url("../assets/ButtonIcons/gear-white-48x48.png");
+  background-position-y: 8px;
+  background-size: 25%;
+}
+
+.shutDown {
+  background-color: #f13a2e !important;
+  border-radius: 10px;
+  background-image: url("../assets/ButtonIcons/power-white-48x48.png");
+}
+
+.bgBase {
+  
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pageBase {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  height: 495px;
+}
+
+.gcPage {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.generalCntrls{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.gcFaders {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.masterVolCntrl {
+  height: 85%;
+  width: 130px;
+}
+
+.btCntrl {
+  height: 85%;
+  width: 130px;
+}
+
+.btConnectCntrls {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btConnectBtn {
+  height: 80px;
+  width: 120px;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: lightblue;
+}
+.btConnectBtn:active {
+  background-color: blue;
+}
+
+.barTvCntrl {
+  flex-direction: column !important;
+  justify-content: space-between;
+  
+}
+
+.labelBase{
+  text-align: center;
+  text-wrap: wrap;
+  font-family: Crestron Sans Pro;
+  color: white;
+}
+
+.volContainer {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnsContBase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 325px;
+}
+
+.btnsContBase button {
+  width: 90px;
+  height: 90px;
+  border: transparent;
+  font-size: 16px;
+  font-family: Crestron Sans Pro;
+  padding-top: 55px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 5px;
+  background-size: 70%;
+}
+
+
+.volUpBase {
+  background-image: url("../assets/ButtonIcons/vol-up-black.png");
+}
+.volUpBase:active {
+  background-color: white;
+}
+.volDownBase {
+  background-image: url("../assets/ButtonIcons/vol-down-black.png");
+}
+.volDownBase:active {
+  background-color: white;
+}
+.muteBase {
+  background-image: url("../assets/ButtonIcons/speaker\ mute-black-48x48.png");
+  background-size: 60% !important;
+  background-color: #f13a2e !important;
+  
+}
+
+.muteBase:active {
+  background-color: red !important;
+}
+
+.volBarBase {
+  background-color: #00de51;
+  height: 100%;
+  width: 10px;
+}
+
+.faderBankBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.faderBankLabel {
+  font-size: 24px;
+}
+.faderLabel {
+  margin: 5px;
+}
+
+.fadersList {
+  display: flex;
+  flex-direction: row;
+}
+
+.faderCont {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faderLabel {
+  color: white;
+  font-size: 20px;
+}
+
+.traversalBtns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.traversalBtns button{
+  height: 50px;
+  width: 15%;
+  font-size: 150%;
+}
+.traversalBtns button:active{
+  background-color: white;
+}
+
+.tvCntrlBtns {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-evenly;
+}
+.tvCntrlBtns div div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tvCntrlBtns p{
+  font-size: 24px;
+}
+.tvCntrlBtns div div button{
+  height: 90px;
+  width: 110px;
+  margin: 5px 10px;
+  font-size: 20px;
+
+}
+.tvCntrlBtns div div button:active{
+  background-color: white;
+}
+
+.followedTv {
+  margin: 0px;
+}
+
+.pwrOnBase {
+  color: white;
+  border: transparent !important;
+  background-color: #00da14 !important;
+}
+.pwrOnBase:active {
+  background-color: #00da16a6 !important;
+}
+
+.pwrOffBase {
+  color: white;
+  border: transparent !important;
+  background-color: #f13a2e !important;
+}
+.pwrOffBase:active {
+  background-color: red !important;
+}
+
+.sepLine {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.tvPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tvPageControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tvSelectorCont {
+  width: 800px;
+  height: 100%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roomSelectBtns {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.roomSelectBtns button{
+  height: 50px;
+  width: 75px;
+  font-size: 20px;
+}
+
+.roomSelectBtns button:active{
+  background-color: white;
+}
+.roomMap {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.northBg {
+  opacity: 50%;
+  background-image: url("../assets/LoftViews/Loft\ Plan\ View\ North\ -\ white.png");
+}
+.southBg {
+  opacity: 50%;
+  background-image: url("../assets/LoftViews/Loft\ Plan\ View\ South\ -\ white.png");
+}
+
+
+.roomMap div button{
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  color: white;
+  background-image: url(../assets/ButtonIcons/tv-white-48x48.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: center;
+  background-position-y: 0px;
+  padding-top: 35px;
+  font-size: 16px;
+}
+.roomMap div button:active{
+  background-color: white;
+}
+.tv101 {
+  position: absolute;
+  top: 380px;
+  left: 435px;
+}
+.tv102 {
+  position: absolute;
+  top: 380px;
+  left: 240px;
+}
+.tv103 {
+  position: absolute;
+  top: 380px;
+  left: 370px;
+}
+
+.tv104 {
+  position: absolute;
+  top: 380px;
+  left: 305px;
+}
+
+.tv105 {
+  position: absolute;
+  top: 225px;
+  left: 230px;
+}
+
+.tv106 {
+  position: absolute;
+  top: 225px;
+  left: 295px;
+}
+.tv107 {
+  position: absolute;
+  top: 225px;
+  left: 430px;
+}
+.tv108 {
+  position: absolute;
+  top: 225px;
+  left: 495px;
+}
+.tv109 {
+  position: absolute;
+  top: 225px;
+  left: 630px;
+}
+.tv110 {
+  position: absolute;
+  top: 320px;
+  left: 630px;
+}
+.tv111 {
+  position: absolute;
+  top: 410px;
+  left: 630px;
+}
+.tv112 {
+  position: absolute;
+  top: 200px;
+  left: 630px;
+}
+.tv113 {
+  position: absolute;
+  top: 360px;
+  left: 630px;
+}
+.tv114 {
+  position: absolute;
+  top: 230px;
+  left: 5px;
+}
+
+.tvPageControls {
+  width: 10%;
+  height: 90%;
+  margin: 15px;
+}
+
+.pwrBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+
+}
+
+.pwrBtns {
+  margin: 10px;
+}
+
+.pwrBtns button {
+  height: 70px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.tvPageSelector {
+  height: 80%;
+  width: 100%;
+}
+
+.channelLabel{
+  text-align: left;
+}
+
+.channelSelector{
+  height: 85%;
+  width: 100%;
+  position: relative;
+}
+.channelBg {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: .5;
+}
+
+.channelList {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+.channelList::-webkit-scrollbar { display: none; }
+
+.channelContainer {
+  flex-shrink: 0;
+  height: 100px;
+  width: 90%;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.channelImg { 
+  height: 80px;
+  width: 80px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 10px;
+  
+  height: auto;
+  height: auto;
+
+}
+
+.channelNameContainer {
+  height: 65%;
+  width: 60%;
+  color: white;
+
+  font-size: 20px;
+  
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volPage {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.settingsPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingsBg {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  border: solid white 2px;
+
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.currentSettingsPage {
+  width: 100%;
+  height: 70%;
+}
+
+.settingsPageNav  {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.settingsPageNav button {
+  font-size: 16px;
+  height: 75px;
+  width: 100px;
+}
+.settingsPageNav button:active {
+  background-color: white;
+}
+
+.settingsKeypad {
+  position: relative;
+  width: 300px;
+}
+
+.systemInfoContainer {
+  position: absolute;
+  width: 822px;
+  height: 311px;
+  display: flex;
+  flex-direction: row;
+}
+
+.networkInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 100%;
+  gap: 2px;
+}
+.networkInfo p{
+  color: white;
+  font-size: 20px;
+}
+
+.systemFuncs{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.systemFuncs button{
+  height: 100px;
+  width: 120px;
+  font-size: 20px;
+}
+
+
+.confirmationBg {
+  z-index: 10;
+  position: absolute;
+  top: 125px;
+  left: 255px;
+  width: 500px;
+  height: 300px;
+  background-color: gray;
+  border: 5px solid white;
+}
+
+.confirmationLabel{
+  z-index: 10;
+  width: 500px;
+  height: 300px;
+  font-size: 40px;
+ text-align: center;
+ color: white;
+}
+
+.confirmationPage .shutDownConfirm{
+  z-index: 10;
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  width: 198px;
+  height: 142px;
+  font-size: 40px;
+  background-color: rgb(0, 100, 0);
+  color: white;
+}
+
+.confirmationPage .shutDownConfirm:active {
+  background-color: rgb(0, 255, 0);
+}
+
+.confirmationPage .shutDownCancel{
+  z-index: 10;
+  position: absolute;
+  top: 120px;
+  left: 285px;
+  width: 198px;
+  height: 142px;
+  font-size: 40px;
+  background-color: rgb(139, 0, 0);
+  color: white;
+  
+}
+
+.confirmationPage .shutDownCancel:active {
+  background-color: rgb(255, 0, 0);
+}
+
+.confirmationPage .backBox {
+  position: absolute;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 600px;
+  opacity: 60%;
+  background-color: dimgray;
+}
+
+.modesPage {
+  display:  flex;
+  flex-direction: row;
+  align-items:  center;
+  justify-content: space-evenly
+}
+
+.mixerModeCont {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.joinModeCont {
+  width: 350px;
+  height: 300px;
+}
+
+.mixerModeBtns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.joinModeBtns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mixerModeBtns button{
+  width: 45%;
+  height: 45%;
+  font-size: 20px;
+}
+
+.joinModeBtns button{
+  width: 45%;
+  height: 45%;
+  font-size: 20px;
+}
+
+.videoSendsPage {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.videoSendsPage fieldset button {
+  height: 90px;
+  width: 150px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+
+.videoInputsBg {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.videoInputsBg button {
+  color: white;
+}
+
+.videoInputsBtn1 {
+  background-color: #1d4650;
+}
+
+.videoInputsBtnChosing{
+  background-color: #0054fc !important;
+
+}
+
+
+
+.videoOutputsBg {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoOutputsBg button {
+  background-color: #006611;
+  color: white;
+}
+
+
+.videoOutputsBtnChosing{
+  animation: inputsGlowing 1300ms linear infinite;
+
+}
+@keyframes outputsGlowing {
+  50% {
+    background-color: #08c921;
+  }
+}
+
+.takeBtnCont {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.takeBtn {
+  height: 100px;
+  width: 150px;
+  background-color: #660000;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+.takeBtn:active {
+
+  background-color: rgb(255, 0, 0);
+
+}
