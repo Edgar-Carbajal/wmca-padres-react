@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.247aa375.css",
+    "main.js": "./static/js/main.b19f983e.js",
+    "static/js/453.8c5e0f1c.chunk.js": "./static/js/453.8c5e0f1c.chunk.js",
+    "static/media/v1_TSW-760_Base_Page.png": "./static/media/v1_TSW-760_Base_Page.23ec440924694236abf7.png",
+    "static/media/v1_TSW-760_Splash_Page.png": "./static/media/v1_TSW-760_Splash_Page.48f2e3f9604ed83e36d8.png",
+    "static/media/Friar Logo v1.png": "./static/media/Friar Logo v1.22ac3c5031208cb37ce9.png",
+    "static/media/Loft Plan View North - white.png": "./static/media/Loft Plan View North - white.3ede4e0ca929795cb921.png",
+    "static/media/Loft Plan View South - white.png": "./static/media/Loft Plan View South - white.375ddf61d51584f0f040.png",
+    "static/media/sourceSelect.png": "./static/media/sourceSelect.aa6d18a64bac5218cf35.png",
+    "static/media/screen.png": "./static/media/screen.0750ef0191b47e68c6b7.png",
+    "index.html": "./index.html",
+    "main.247aa375.css.map": "./static/css/main.247aa375.css.map",
+    "main.b19f983e.js.map": "./static/js/main.b19f983e.js.map",
+    "453.8c5e0f1c.chunk.js.map": "./static/js/453.8c5e0f1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.247aa375.css",
+    "static/js/main.b19f983e.js"
+  ]
+}
